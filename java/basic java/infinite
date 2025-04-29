@@ -1,0 +1,44 @@
+import java.util.*;
+public class infinite;
+public static void main(String args[]){
+    int arr[]={3,5,7,9,10,11,23,45,66,54,100,88};
+    int target=88;
+    System.out.println(ans(ar,taget));
+
+}
+static int ans(int arr[],int target){
+    //first find the range
+    //first start with a box size of 2
+    int start=0;
+    int end=1;
+    //condition for the taget to lie between the range
+    while(taget>arr[end]){
+        int newstart=end+1;//new start
+        //double the box value
+        //end=previous end+sizeofbox*2
+        end=end+(end-start+1)*2;
+        star=newstart;
+
+    }
+    return binarysearch(arr,target,start,end);
+
+
+}
+static int binarysearch(int arr[],int target,int start,int end){
+
+}while(start<=end){
+    //find the middle element
+    int mid=start+(end-start)/2;
+
+    if (target<arr[mid]){
+        end=mid-1;
+    }
+    elseif(target>arr[mid]){
+        start=mid+1;
+    }
+    else{
+        ans=mid;
+
+    }
+    return ans;
+}
