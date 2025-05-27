@@ -58,7 +58,7 @@ class SetMatrixZerosFinal {
         }
     }
      public static void main(String[] args) {
-        SetMatrixZerosEasy obj = new SetMatrixZerosEasy();
+        SetMatrixZerosFinal obj = new SetMatrixZerosFinal();
         int[][] matrix = {
             {1, 1, 1},
             {1, 0, 1},
