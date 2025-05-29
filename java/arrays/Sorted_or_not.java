@@ -8,7 +8,6 @@ public class Sorted_or_not {
             }
         }
             System.out.println("The array is sorted");
-
     } 
 
 }
